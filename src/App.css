@@ -1,0 +1,27 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.welcome-section {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.learner-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.learner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.footer {
+  margin-top: 2rem;
+}
